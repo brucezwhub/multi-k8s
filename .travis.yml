@@ -18,3 +18,8 @@ before_install:
   - docker build -t brucezwhub/react-test -f ./client/Dockerfile.dev ./client
 script:
   - docker run -e CI=true brucezwhub/react-test npm test   
+deploy:
+  provider: script
+  script: bash ./deploy.sh
+  on:
+    branch: master
