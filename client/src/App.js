@@ -17,7 +17,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React 3 -- 20201231 GKE - v1
+            Learn React latest commit from git.
           </a>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
